@@ -1,0 +1,1 @@
+Grafica:{Nom bre: "5rchiv0 d3 3ntr4d4 #1 "; Continente:{@Nombre: "africa";Pais:{Nombre: "Argelia";Poblacion:38700000;Saturacion:32%;Bandera: ".\Bandera\dz.png";}$Pais:{Nombre: "Zimbabue"; Poblacion: 12973808; Saturacion: 7%; Bandera: ".\Bandera\zw.png";}Pais:{Nombre: "Tunez"; Poblacion: 10886500;Saturacion: 50%; Bandera: ".\Bandera\tn.png";}Pa
