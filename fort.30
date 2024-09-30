@@ -1,0 +1,38 @@
+ Nombre de la gráfica: Corto #1                                          
+ Continente: AmericadelNorte
+    País: Canada                                            
+       Población:        35295
+       Saturación: 75        %
+ orange
+       Bandera: .\imagen\Canada.png                                                                                 
+    País: Mexico                                            
+       Población:       119713
+       Saturación: 35        %
+ green
+       Bandera: .\imagen\Mexico.png                                                                                 
+    País: Estados unidos                                    
+       Población:       512300
+       Saturación: 73        %
+ orange
+       Bandera: .\imagen\EEUU.png                                                                                   
+ Promedio de saturación en AmericadelNorte                                   :   61.0000000     %
+ País con menor saturación en AmericadelNorte                                   : Mexico                                             con    35.0000000     %
+ Color del promedio de saturación en AmericadelNorte                                   : orange              
+ Continente: AmericadelSur
+    País: Cabo verde                                        
+       Población:        35000
+       Saturación: 99        %
+ red
+       Bandera: .\imagen\CaboVerde.png                                                                              
+ Promedio de saturación en AmericadelSur                                     :   99.0000000     %
+ País con menor saturación en AmericadelSur                                     : Cabo verde                                         con    99.0000000     %
+ Color del promedio de saturación en AmericadelSur                                     : red                 
+ Continente: Oceania
+    País: Indonesia                                         
+       Población:        55000
+       Saturación: 74        %
+ orange
+       Bandera: .\imagen\Indonesia.png                                                                              
+ Promedio de saturación en Oceania                                           :   74.0000000     %
+ País con menor saturación en Oceania                                           : Indonesia                                          con    74.0000000     %
+ Color del promedio de saturación en Oceania                                           : orange              

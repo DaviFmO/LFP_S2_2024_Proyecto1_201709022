@@ -1,0 +1,100 @@
+ Nombre de la gráfica: 5rchiv0 d3 3ntr4d4 #1                             
+ Continente: Europa
+    País: Belgica                                           
+       Población:     11132269
+       Saturación: 99        %
+ red
+       Bandera: .\Bandera\be.png                                                                                    
+    País: Dinamarca                                         
+       Población:      5627235
+       Saturación: 75        %
+ orange
+       Bandera: .\Bandera\dk.png                                                                                    
+    País: Alemania                                          
+       Población:     80619000
+       Saturación: 93        %
+ red
+       Bandera: .\Bandera\de.png                                                                                    
+    País: Bulgaria                                          
+       Población:      7282041
+       Saturación: 17        %
+ Blue
+       Bandera: .\Bandera\bg.png                                                                                    
+    País: Bosnia y Herzegovina                              
+       Población:      3791622
+       Saturación: 47        %
+ yellow
+       Bandera: .\Bandera\ba.png                                                                                    
+    País: Austria                                           
+       Población:      8504850
+       Saturación: 2         %
+ White
+       Bandera: .\Bandera\at.png                                                                                    
+ Promedio de saturación en Europa                                            :   55.5000000     %
+ País con menor saturación en Europa                                            : Austria                                            con    2.00000000     %
+ Color del promedio de saturación en Europa                                            : yellow              
+ Continente: Asia
+    País: Armenia                                           
+       Población:      3017400
+       Saturación: 15        %
+ White
+       Bandera: .\Bandera\am.png                                                                                    
+    País: China                                             
+       Población:   1363350000
+       Saturación: 28        %
+ Blue
+       Bandera: .\Bandera\cn.png                                                                                    
+    País: Camboya                                           
+       Población:     15135000
+       Saturación: 2         %
+ White
+       Bandera: .\Bandera\kh.png                                                                                    
+    País: Corea del Sur                                     
+       Población:     50219669
+       Saturación: 76        %
+ red
+       Bandera: .\Bandera\kr.png                                                                                    
+    País: Chipre                                            
+       Población:       865878
+       Saturación: 56        %
+ yellow
+       Bandera: .\Bandera\cy.png                                                                                    
+ Promedio de saturación en Asia                                              :   35.4000015     %
+ País con menor saturación en Asia                                              : Camboya                                            con    2.00000000     %
+ Color del promedio de saturación en Asia                                              : green               
+ Continente: Oceania
+    País: Islas Salomon                                     
+       Población:       581344
+       Saturación: 89        %
+ red
+       Bandera: .\Bandera\sb.png                                                                                    
+    País: Indonesia                                         
+       Población:    249866000
+       Saturación: 50        %
+ yellow
+       Bandera: .\Bandera\id.png                                                                                    
+    País: Islas Marshall                                    
+       Población:        56086
+       Saturación: 33        %
+ green
+       Bandera: .\Bandera\mh.png                                                                                    
+    País: Nauru                                             
+       Población:         9945
+       Saturación: 66        %
+ orange
+       Bandera: .\Bandera\nr.png                                                                                    
+    País: Kiribati                                          
+       Población:       106461
+       Saturación: 25        %
+ Blue
+       Bandera: .\Bandera\ki.png                                                                                    
+ Promedio de saturación en Oceania                                           :   52.5999985     %
+ País con menor saturación en Oceania                                           : Kiribati                                           con    25.0000000     %
+ Color del promedio de saturación en Oceania                                           : yellow              
+ -------------------------------------------
+ País con menor saturación global: Camboya                                           
+ Continente: Asia                                              
+ Población:     15135000
+ Bandera: .\Bandera\kh.png                                                                                    
+ Saturación:    2.00000000     %
+ -------------------------------------------

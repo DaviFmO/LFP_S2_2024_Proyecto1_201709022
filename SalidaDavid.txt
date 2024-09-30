@@ -1,0 +1,5 @@
+ Pais con menor saturacion global: Mexico                                            
+ Continente: AmericadelNorte                                   
+ Poblacion:       119713
+ Bandera: .\imagen\Mexico.png                                                                                 
+ Saturacion:    35.0000000     %

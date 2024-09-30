@@ -1,0 +1,27 @@
+digraph G {
+  "Corto #1" [shape=box];
+  "Corto #1" -> "AmericadelNorte";
+  "Canada" [style=filled, fillcolor="orange"];
+  "Canada" [shape=record, label="Canada|75"];
+  "AmericadelNorte" -> "Canada";
+  "Mexico" [style=filled, fillcolor="green"];
+  "Mexico" [shape=record, label="Mexico|35"];
+  "AmericadelNorte" -> "Mexico";
+  "Estados unidos" [style=filled, fillcolor="orange"];
+  "Estados unidos" [shape=record, label="Estados unidos|73"];
+  "AmericadelNorte" -> "Estados unidos";
+  "AmericadelNorte" [shape=record, label="AmericadelNorte|61"];
+  "AmericadelNorte" [style=filled, fillcolor="orange"];
+  "Corto #1" -> "AmericadelSur";
+  "Cabo verde" [style=filled, fillcolor="red"];
+  "Cabo verde" [shape=record, label="Cabo verde|99"];
+  "AmericadelSur" -> "Cabo verde";
+  "AmericadelSur" [shape=record, label="AmericadelSur|99"];
+  "AmericadelSur" [style=filled, fillcolor="red"];
+  "Corto #1" -> "Oceania";
+  "Indonesia" [style=filled, fillcolor="orange"];
+  "Indonesia" [shape=record, label="Indonesia|74"];
+  "Oceania" -> "Indonesia";
+  "Oceania" [shape=record, label="Oceania|74"];
+  "Oceania" [style=filled, fillcolor="orange"];
+}
