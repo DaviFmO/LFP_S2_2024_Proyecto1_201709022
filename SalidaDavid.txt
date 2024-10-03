@@ -1,5 +1,5 @@
- Pais con menor saturacion global: Mexico                                            
- Continente: AmericadelNorte                                   
- Poblacion:       119713
- Bandera: .\imagen\Mexico.png                                                                                 
- Saturacion:    35.0000000     %
+ Pais con menor saturacion global: Islas Marshall                                    
+ Continente: Oceania                                           
+ Poblacion:      2352342
+ Bandera: .\ImagenesBanderas\bandera_IslasMarshall.png                                                        
+ Saturacion:    8.00000000     %

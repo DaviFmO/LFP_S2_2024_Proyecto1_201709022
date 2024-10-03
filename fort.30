@@ -1,38 +1,142 @@
- Nombre de la gráfica: Corto #1                                          
- Continente: AmericadelNorte
-    País: Canada                                            
-       Población:        35295
-       Saturación: 75        %
- orange
-       Bandera: .\imagen\Canada.png                                                                                 
-    País: Mexico                                            
-       Población:       119713
-       Saturación: 35        %
- green
-       Bandera: .\imagen\Mexico.png                                                                                 
-    País: Estados unidos                                    
-       Población:       512300
-       Saturación: 73        %
- orange
-       Bandera: .\imagen\EEUU.png                                                                                   
- Promedio de saturación en AmericadelNorte                                   :   61.0000000     %
- País con menor saturación en AmericadelNorte                                   : Mexico                                             con    35.0000000     %
- Color del promedio de saturación en AmericadelNorte                                   : orange              
- Continente: AmericadelSur
-    País: Cabo verde                                        
-       Población:        35000
-       Saturación: 99        %
+ Nombre de la gráfica: Modelo Continental Beta                           
+ Continente: Asia
+    País: Japon                                             
+       Población:      2352342
+       Saturación: 60        %
+ yellow
+       Bandera: .\ImagenesBanderas\bandera_Japon.jpg                                                                
+    País: China                                             
+       Población:   1350000000
+       Saturación: 84        %
  red
-       Bandera: .\imagen\CaboVerde.png                                                                              
- Promedio de saturación en AmericadelSur                                     :   99.0000000     %
- País con menor saturación en AmericadelSur                                     : Cabo verde                                         con    99.0000000     %
- Color del promedio de saturación en AmericadelSur                                     : red                 
- Continente: Oceania
-    País: Indonesia                                         
-       Población:        55000
+       Bandera: .\ImagenesBanderas\bandera_China.png                                                                
+    País: Korea                                             
+       Población:      2352342
+       Saturación: 69        %
+ orange
+       Bandera: .\ImagenesBanderas\bandera_Korea.jpg                                                                
+ Promedio de saturación en Asia                                              :   71.0000000     %
+ País con menor saturación en Asia                                              : Japon                                              con    60.0000000     %
+ Color del promedio de saturación en Asia                                              : orange              
+ Continente: America
+    País: Canada                                            
+       Población:     23423423
+       Saturación: 44        %
+ green
+       Bandera: .\ImagenesBanderas\bandera_Canada.png                                                               
+ Promedio de saturación en America                                           :   44.0000000     %
+ País con menor saturación en America                                           : Canada                                             con    44.0000000     %
+ Color del promedio de saturación en America                                           : green               
+ Continente: Europa
+    País: Alemania                                          
+       Población:      2352342
        Saturación: 74        %
  orange
-       Bandera: .\imagen\Indonesia.png                                                                              
- Promedio de saturación en Oceania                                           :   74.0000000     %
- País con menor saturación en Oceania                                           : Indonesia                                          con    74.0000000     %
- Color del promedio de saturación en Oceania                                           : orange              
+       Bandera: .\ImagenesBanderas\bandera_Alemania.jpg                                                             
+    País: Espana                                            
+       Población:   1350000000
+       Saturación: 45        %
+ green
+       Bandera: .\ImagenesBanderas\bandera_Espana.png                                                               
+    País: Inglaterra                                        
+       Población:      2352342
+       Saturación: 100       %
+ red
+       Bandera: .\ImagenesBanderas\bandera_Inglaterra.png                                                           
+ Promedio de saturación en Europa                                            :   73.0000000     %
+ País con menor saturación en Europa                                            : Espana                                             con    45.0000000     %
+ Color del promedio de saturación en Europa                                            : orange              
+ Continente: Oceania
+    País: Islas Marshall                                    
+       Población:      2352342
+       Saturación: 8         %
+ White
+       Bandera: .\ImagenesBanderas\bandera_IslasMarshall.png                                                        
+    País: Islas Salomon                                     
+       Población:        45000
+       Saturación: 60        %
+ yellow
+       Bandera: .\ImagenesBanderas\bandera_IslasSalmon.png                                                          
+ Promedio de saturación en Oceania                                           :   34.0000000     %
+ País con menor saturación en Oceania                                           : Islas Marshall                                     con    8.00000000     %
+ Color del promedio de saturación en Oceania                                           : green               
+ Continente: Africa
+    País: Cabo Verde                                        
+       Población:        35000
+       Saturación: 43        %
+ green
+       Bandera: .\ImagenesBanderas\bandera_CaboVerde.png                                                            
+ Promedio de saturación en Africa                                            :   43.0000000     %
+ País con menor saturación en Africa                                            : Cabo Verde                                         con    43.0000000     %
+ Color del promedio de saturación en Africa                                            : green               
+ Nombre de la gráfica: Modelo Continental Beta                           
+ Continente: Asia
+    País: Japon                                             
+       Población:      2352342
+       Saturación: 60        %
+ yellow
+       Bandera: .\ImagenesBanderas\bandera_Japon.jpg                                                                
+    País: China                                             
+       Población:   1350000000
+       Saturación: 84        %
+ red
+       Bandera: .\ImagenesBanderas\bandera_China.png                                                                
+    País: Korea                                             
+       Población:      2352342
+       Saturación: 69        %
+ orange
+       Bandera: .\ImagenesBanderas\bandera_Korea.jpg                                                                
+ Promedio de saturación en Asia                                              :   71.0000000     %
+ País con menor saturación en Asia                                              : Japon                                              con    60.0000000     %
+ Color del promedio de saturación en Asia                                              : orange              
+ Continente: America
+    País: Canada                                            
+       Población:     23423423
+       Saturación: 44        %
+ green
+       Bandera: .\ImagenesBanderas\bandera_Canada.png                                                               
+ Promedio de saturación en America                                           :   44.0000000     %
+ País con menor saturación en America                                           : Canada                                             con    44.0000000     %
+ Color del promedio de saturación en America                                           : green               
+ Continente: Europa
+    País: Alemania                                          
+       Población:      2352342
+       Saturación: 74        %
+ orange
+       Bandera: .\ImagenesBanderas\bandera_Alemania.jpg                                                             
+    País: Espana                                            
+       Población:   1350000000
+       Saturación: 45        %
+ green
+       Bandera: .\ImagenesBanderas\bandera_Espana.png                                                               
+    País: Inglaterra                                        
+       Población:      2352342
+       Saturación: 100       %
+ red
+       Bandera: .\ImagenesBanderas\bandera_Inglaterra.png                                                           
+ Promedio de saturación en Europa                                            :   73.0000000     %
+ País con menor saturación en Europa                                            : Espana                                             con    45.0000000     %
+ Color del promedio de saturación en Europa                                            : orange              
+ Continente: Oceania
+    País: Islas Marshall                                    
+       Población:      2352342
+       Saturación: 8         %
+ White
+       Bandera: .\ImagenesBanderas\bandera_IslasMarshall.png                                                        
+    País: Islas Salomon                                     
+       Población:        45000
+       Saturación: 60        %
+ yellow
+       Bandera: .\ImagenesBanderas\bandera_IslasSalmon.png                                                          
+ Promedio de saturación en Oceania                                           :   34.0000000     %
+ País con menor saturación en Oceania                                           : Islas Marshall                                     con    8.00000000     %
+ Color del promedio de saturación en Oceania                                           : green               
+ Continente: Africa
+    País: Cabo Verde                                        
+       Población:        35000
+       Saturación: 43        %
+ green
+       Bandera: .\ImagenesBanderas\bandera_CaboVerde.png                                                            
+ Promedio de saturación en Africa                                            :   43.0000000     %
+ País con menor saturación en Africa                                            : Cabo Verde                                         con    43.0000000     %
+ Color del promedio de saturación en Africa                                            : green               

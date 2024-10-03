@@ -92,7 +92,7 @@ call procesar_archivo(abrir_archivo, salida_archivo)
     !abrir el archivo HTML para escribir
     if(size(errors_)>0 .or. size(tokens_)>0 )then
         if(size(tokens_)>0)then
-    open(unit=10, file="tabla.html", status="replace", action="write", iostat=ios)
+    open(unit=10, file="Tokens.html", status="replace", action="write", iostat=ios)
     ! Verificar si hubo error al abrir el archivo
     if (ios /= 0) then
         print *, "Error al abrir el archivo HTML."
@@ -103,18 +103,19 @@ call procesar_archivo(abrir_archivo, salida_archivo)
            "<head><title>Tabla de Datos</title></head>" // &
           ! "<body>" // &
            "<h1>TOKENS</h1>" // &
-           "<table border=""1"">" // &
+           !"<table border=""1"">" // &
            !"<tr><th>No</th><th>leema</th><th>tipo</th><th>fila</th><th>calumna</th></tr>"
            !color de la tabla
-        
-           "<tr><th>No</th><th>lexema</th><th>tipo</th><th>fila</th><th>calumna</th></tr>"
+           "<table border=""1"" cellpadding=""5"" cellspacing=""0"" style=""border-collapse: collapse; width: 100%;"">" // &
+           "<tr style=""background-color: green; color: white;"">" // &
+           "<th>No</th><th>lexema</th><th>tipo</th><th>fila</th><th>calumna</th></tr>"
            
     write(10, '(A)') trim(html)
     ! Agregar las filas a la tabla
     
     do t = 1, size(tokens_)
         contador = t
-        html = "<tr><td>" // trim(adjustl(int_to_string(contador))) // "</td>" //&
+        html = "<tr style=""background-color: #90EE90;""><td>" // trim(adjustl(int_to_string(contador))) // "</td>" //&
         " <td>" // trim(tokens_(t)%lexema) // "</td>" // &
                "<td>" // trim(tokens_(t)%tipo) // "</td>" // &
                "<td>" // trim(adjustl(int_to_string((tokens_(t)%linea)/2))) // "</td>" // &
@@ -142,17 +143,18 @@ call procesar_archivo(abrir_archivo, salida_archivo)
     ! Comenzar el documento HTML
     html = "<html>" // &
            "<head><title>Tabla de Datos</title></head>" // &
-           "<body>" // &
-           "<h1>Caracteres Lexicos</h1>" // &
-           "<table border=""1"">" // &
-
-           "<tr><th>No</th><th>lexema</th><th>tipo</th><th>fila</th><th>calumna</th></tr>"
+           !"<body>" // &
+           "<h1>Errores Lexicos</h1>" // &
+           !"<table border=""1"">" // &
+           "<table border=""1"" cellpadding=""5"" cellspacing=""0"" style=""border-collapse: collapse; width: 100%;"">" // &
+           "<tr style=""background-color: orange; color: white;"">" // &
+           "<th>No</th><th>lexema</th><th>tipo</th><th>fila</th><th>calumna</th></tr>"
     write(10, '(A)') trim(html)
     ! Agregar las filas a la tabla
     
     do t = 1, size(errors_)
         contador = t
-        html = "<tr><td>" // trim(adjustl(int_to_string(contador))) // "</td>" //&
+        html =  "<tr style=""background-color: #FFA07A;""><td>"// trim(adjustl(int_to_string(contador))) // "</td>" //&
         " <td>" // trim(errors_(t)%mensaje) // "</td>" // &
                "<td>" // trim(errors_(t)%tipo) // "</td>" // &
                "<td>" // trim(adjustl(int_to_string((errors_(t)%linea)/2))) // "</td>" // &

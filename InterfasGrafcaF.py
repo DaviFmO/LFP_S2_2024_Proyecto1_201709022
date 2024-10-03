@@ -67,8 +67,8 @@ def guardar_archivo():
 
 def guardar_como():
     global archivo_abierto
-    archivo_abierto = filedialog.asksaveasfilename(defaultextension=".txt", filetypes=[("Archivos de texto", "*.txt")])
-   
+    #archivo_abierto = filedialog.asksaveasfilename(defaultextension=".txt", filetypes=[("Archivos de texto", "*.txt")])
+    archivo_abierto = filedialog.asksaveasfilename(filetypes=[("Todos los archivos", "*.*")])
     if archivo_abierto:
         with open(archivo_abierto, 'w') as file:
             contenido = text_area.get(1.0, tk.END)
@@ -167,7 +167,7 @@ def imprimir_imagen():
     arcchivo_imagen = "graficoultimo.png"
     
     imagen = Image.open(arcchivo_imagen)
-    imagen = imagen.resize((1100, 350))
+    imagen = imagen.resize((1200, 350))
     imagen_tk = ImageTk.PhotoImage(imagen)
     text_area2.delete(1.0, END)
     text_area2.config(state=NORMAL)
@@ -238,13 +238,13 @@ menuacerca.add_command(label="Acerca de",command=acercade)
 
 
 #area de texto para codigo de entrada con barra de desplazamiento
-text_area = scrolledtext.ScrolledText(ventana, width=60, height=20,bg="lightyellow") 
+text_area = scrolledtext.ScrolledText(ventana, width=70, height=20,bg="lightyellow") 
 text_area.place(x=50, y=50)
 
 
 #area de texto para codigo de salida bloqueado
-text_area2 = Text(ventana, width=140, height=25)
-text_area2.place(x=50, y=400)
+text_area2 = Text(ventana, width=150, height=25)
+text_area2.place(x=40, y=380)
 text_area2.config(state=DISABLED)
 
 
@@ -257,7 +257,7 @@ text_area.config(yscrollcommand=scroll.set)
 
 #frame para los botones
 frame = Frame(ventana)
-frame.place(x=600, y=300)
+frame.place(x=620, y=300)
 
 #botones dentro del frame
 btn1 = Button(frame, text="Analizar", command=funcione)
@@ -271,7 +271,7 @@ btn3.grid(row=2, column=0)
 #frame para resultados nombre e imagen
 frame2 = Frame(ventana, width=400, height=200, bg="lightyellow")
 frame2.pack_propagate(False)
-frame2.place(x=600, y=70)
+frame2.place(x=625, y=70)
 
 #etiquetas para los resultados
 etq2 = Label(frame2, text="Resultado:")

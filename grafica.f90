@@ -81,7 +81,7 @@ module graficaarbol
                     ! write(cadens, '(I0)')  promedio_saturacion
                      write(salida_unit, *) "Color del promedio de saturación en ", continente, ": ", determinar_color(promedio_saturacion_entero)
                      write(cadens, '(I0)')  promedio_saturacion_entero 
-                     write(11, '(A)') '  "' // trim(continente) // '" [shape=record, label="' // trim(continente) // '|' // trim(cadens) // '"];'
+                     write(11, '(A)') '  "' // trim(continente) // '" [shape=record, label="{' // trim(continente) // '|' // trim(cadens) // '}"];'
                         
                      Write(11, '(A)') '  "' // trim(continente) // '" [style=filled, fillcolor="' // trim(determinar_color(promedio_saturacion_entero)) // '"];'
                      ! Verificar si el promedio del continente es más bajo que el global en caso de empate de saturación
@@ -178,7 +178,7 @@ module graficaarbol
                 end if
                 write(11, '(A)') '  "' // trim(pais) // '" [style=filled, fillcolor="' // trim(determinar_color(saturacion_val)) // '"];'
                 write(cadena, '(I0)')  saturacion_val
-                write(11, '(A)') '  "' // trim(pais) // '" [shape=record, label="' // trim(pais) // '|' // trim(cadena) // '"];'
+                write(11, '(A)') '  "' // trim(pais) // '" [shape=record, label="{' // trim(pais) // '|' // trim(cadena) // '}"];'
                   write(11, '(A)') '  "' // trim(continente) // '" -> "' // trim(pais) // '";'
               end if
               
@@ -199,7 +199,7 @@ module graficaarbol
                
                write(salida_unit, *) "Color del promedio de saturación en ", continente, ": ", determinar_color(promedio_saturacion_entero)
                write(cadens, '(I0)')  promedio_saturacion_entero
-            write(11, '(A)') '  "' // trim(continente) // '" [shape=record, label="' // trim(continente) // '|' // trim(cadens) // '"];'
+            write(11, '(A)') '  "' // trim(continente) // '" [shape=record, label="{' // trim(continente) // '|' // trim(cadens) // '}"];'
             Write(11, '(A)') '  "' // trim(continente) // '" [style=filled, fillcolor="' // trim(determinar_color(promedio_saturacion_entero)) // '"];'
         
                ! Verificar si el último país tiene la saturación global mínima
